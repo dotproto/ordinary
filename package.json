@@ -1,0 +1,35 @@
+{
+  "name": "ordinary",
+  "version": "1.0.0",
+  "description": "A fork of feross/standard with some legit tweaks",
+  "main": "index.js",
+  "bin": "./bin/cmd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svincent/ordinary.git"
+  },
+  "keywords": [
+    "standard",
+    "feross",
+    "feross/standard",
+    "standard-fork",
+    "lint"
+  ],
+  "author": "Simeon Vincent <svincent@gmail.com> (https://svincent.me)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/svincent/ordinary/issues"
+  },
+  "homepage": "https://github.com/svincent/ordinary#readme",
+  "dependencies": {
+    "eslint": "~3.12.2",
+    "eslint-config-standard": "~6.2.1",
+    "eslint-plugin-promise": "~3.4.0",
+    "eslint-plugin-standard": "~2.0.1",
+    "eslint-config-ordinary": "~1.0.0",
+    "standard-engine": "~5.3.0"
+  }
+}
